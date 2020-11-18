@@ -6,7 +6,7 @@
 ## Usage
 In the example below, I'm using the [Echo](https://github.com/labstack/echo) web framework.
 ```
-import "github.com/Girein/json-api-response-go"
+import pretty "github.com/Girein/json-api-response-go"
 
 func Hello(c echo.Context) error {
     response := new(pretty.JSONResponse)
