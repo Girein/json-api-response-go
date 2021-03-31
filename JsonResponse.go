@@ -5,7 +5,6 @@ type JSONResponse struct {
 	StatusCode string      `json:"status_code"`
 	StatusText string      `json:"status_text"`
 	Message    string      `json:"message"`
-	Error      error       `json:"error"`
 	Data       interface{} `json:"data"`
 }
 
